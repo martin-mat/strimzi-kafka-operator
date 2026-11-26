@@ -12,7 +12,7 @@
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/strimzi-kafka-operator)](https://artifacthub.io/packages/search?repo=strimzi-kafka-operator)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fstrimzi%2Fstrimzi-kafka-operator.svg?type=shield&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fstrimzi%2Fstrimzi-kafka-operator?ref=badge_shield&issueType=license)
 [![Known Vulnerabilities](https://snyk.io/test/github/strimzi/strimzi-kafka-operator/badge.svg)](https://snyk.io/test/github/strimzi/strimzi-kafka-operator)
-[![CNTi essential](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/strimzi/strimzi-kafka-operator/badges/strimzi-kafka-operator/cnti-badge.json&label=CNTi%20essential)](https://github.com/strimzi/strimzi-kafka-operator/actions/workflows/cnti.yml)
+[![CNTi essential](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/martin-mat/strimzi-kafka-operator/badges/strimzi-kafka-operator/cnti-badge.json&label=CNTi%20essential)](https://github.com/martin-mat/strimzi-kafka-operator/actions/workflows/cnti.yml)
 
 Strimzi provides a way to run an [Apache Kafka®][kafka] cluster on 
 [Kubernetes][k8s] or [OpenShift][os] in various deployment configurations.
