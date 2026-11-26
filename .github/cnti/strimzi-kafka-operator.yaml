@@ -1,0 +1,15 @@
+# CNTi Test Suite configuration for the released strimzi-kafka-operator chart,
+# used by .github/workflows/cnti.yml. The chart is installed with its defaults,
+# then a minimal Kafka cluster for the operator to run.
+config_version: "v2"
+deployments:
+  helm_dirs:
+    - name: strimzi-kafka-operator
+      # Relative to this file.
+      helm_directory: ../../helm-charts/helm3/strimzi-kafka-operator
+      namespace: kafka
+      priority: 1
+  manifests:
+    - name: kafka-cluster
+      manifest_directory: strimzi-kafka-operator
+      priority: 2
