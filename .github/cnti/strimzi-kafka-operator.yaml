@@ -9,7 +9,3 @@ deployments:
       helm_directory: ../../helm-charts/helm3/strimzi-kafka-operator
       namespace: kafka
       priority: 1
-  manifests:
-    - name: kafka-cluster
-      manifest_directory: strimzi-kafka-operator
-      priority: 2
